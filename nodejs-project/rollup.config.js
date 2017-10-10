@@ -4,7 +4,7 @@ export default [
 	{
 		input: 'src/main.js',
 		output: [
-			{ file: pkg.demoOne, format: 'es' }
+			{  format: 'es' }
 		]
 	}
 ];
