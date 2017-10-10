@@ -5,4 +5,8 @@ export default class UnshakableClass{
     functionTwo(){}
 
     functionThree(){}
+
+    functionFour(){}
+
+    functionFive(){}
 }

@@ -7,9 +7,8 @@
   "scripts": {
     "build": "rollup -c"
   },
-  "main": "dist/how-long-till-lunch.cjs.js",
-  "module": "dist/how-long-till-lunch.esm.js",
-  "browser": "dist/how-long-till-lunch.umd.js",
+  "demoOne": "dist/tree-shaking-normal.js",
+  "demoTwo": "dist/tree-shaking-class.js",
   "private": true,
   "author": "Andrew de Rozario <andrew_de_rozario@hotmail.com> (https://justintimecoder.com/)",
   "license": "MIT",
