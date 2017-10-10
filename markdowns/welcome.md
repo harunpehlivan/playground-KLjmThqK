@@ -10,7 +10,7 @@ The source code is on [GitHub](https://github.com/TechDotIO/nodejs-template), pl
 @[Luke, how many stars are there in these galaxies?]({ "stubs": ["src/main.js","src/myDeps.js"], "command": "node_modules/rollup/bin/rollup --config rollup.config.js" })
 
 
-@[Luke, how many stars are there in these galaxies?]({ "stubs": ["src/main.js","src/myDeps.js"], "command": "node_modules/rollup/bin/rollup --config rollup.config2.js" })
+@[Luke, how many stars are there in these galaxies?]({ "stubs": ["src/main2.js","src/myClass.js"], "command": "node_modules/rollup/bin/rollup --config rollup.config2.js" })
 
 Check out the markdown file [`welcome.md`](https://github.com/TechDotIO/nodejs-template/blob/master/markdowns/welcome.md) to see how this exercise is injected into the template.
 
