@@ -1,9 +1,21 @@
 {
   "name": "nodejs-project-template",
   "version": "1.0.0",
-  "license": "ISC",
   "dependencies": {
     "mocha": "^3.4.2"
   },
-  "private": true
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "main": "dist/how-long-till-lunch.cjs.js",
+  "module": "dist/how-long-till-lunch.esm.js",
+  "browser": "dist/how-long-till-lunch.umd.js",
+  "private": true,
+  "author": "Andrew de Rozario <andrew_de_rozario@hotmail.com> (https://justintimecoder.com/)",
+  "license": "MIT",
+  "devDependencies": {
+    "rollup": "^0.50.0",
+    "rollup-plugin-commonjs": "^8.2.1",
+    "rollup-plugin-node-resolve": "^3.0.0"
+  }
 }
