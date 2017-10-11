@@ -1,6 +1,6 @@
 export default [
 	{
-		input: 'src/main2.js',
+		input: 'src/classDemo/main.js',
 		output: [
 			{ format: 'es' }
 		]
