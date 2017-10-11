@@ -7,7 +7,7 @@ The source code is on [GitHub](https://github.com/TechDotIO/nodejs-template), pl
 
 # Hands-on Demo
 
-@[Luke, how many stars are there in these galaxies?]({ "stubs": ["src/main.js","src/myDeps.js"], "command": "node_modules/rollup/bin/rollup --config rollup.config.js" })
+@[Start altering what is used and imported to see what is included and excluded]({ "stubs": ["src/main.js","src/myDeps.js"], "command": "node_modules/rollup/bin/rollup --config rollup.config.js" })
 
 
 @[Luke, how many stars are there in these galaxies?]({ "stubs": ["src/classDemo/main.js","src/classDemo/myClass.js"], "command": "node_modules/rollup/bin/rollup --config rollup.config2.js" })
