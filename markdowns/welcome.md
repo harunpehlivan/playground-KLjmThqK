@@ -8,7 +8,7 @@ Front-end / JavaScript optimization and build chains are evolving at a rapid rat
 
 Tree-shaking is another aspect of JavaScript optimization that has entered the mix in recent times.
 
-##So what is it and why should I care?
+## So what is it and why should I care?
 In the brave new world of ES6 + JavaScript, we have a syntax that allows us to declare the dependencies of one file to other files in our project i.e the `import` keyword, as well as the ability to declare the functions, classes, and variables that other files may import i.e the `export` keyword.
 
 Tree-shaking is the process of analyzing the code files that are required to run your application and then including only code that is actually used by your application.
@@ -37,13 +37,13 @@ Below is an interactive code sample that can be run to see the results of perfor
 
 ### Secondary considerations
 
-####1. What are you building
+#### 1. What are you building
 One thing to bear in mind is what are you building.  For example, if you are building a library to be consumed by others then you may want to consider whether or not you wish to bundle and then perform tree-shaking on libraries that your code depends on.  It is not necessary to do this as a normal dependency will be downloaded via the package manager as it will be declared in your libraries' package.json and will, therefore, be downloaded anyway.  Bundling and then tree-shaking your code with a dependency brought in as part of your bundle may make the savings that you wish to achieve, but if you are not the only consumer of the dependency that you are bundling then you may experience no-gains or even the opposite effect in some cases.
 
-####2. Where are you running
+#### 2. Where are you running
 So obviously module bundling, (which currently goes hand in hand with tree-shaking) becomes massively enticing for applications that are browser-based and less beneficial if you are executing server-side.
 
-####3. Common.js
+#### 3. Common.js
 It is not possible to do the kind of parsing required on a code base that is written in common.js.  There are plugins that allow libraries such as Rollup to handle these modules but it is something to be aware of, especially as many of the libraries your own code base depends on may be written in this format, even if your code is not.
 
 ## So what can it not do?
@@ -59,5 +59,5 @@ Many libraries offer a fluent, chainable API that is achieved by having instance
 
 There are workarounds for this, primarily implementing the main class declaration in one file and then having instance and static functions declared in separate files and then using the dynamic nature of JavaScript to add the members if the file is imported, though this is a manual process.
 
-##Final Thoughts
+## Final Thoughts
 Tree-shaking IMHO is one of the really cool things about modern JavaScript build systems.  It uses some fairly cool techniques to understand and then optimize your code.  Whilst it won't be a game-changer for every scenario, it's just one of the things that show how far JavaScript programming has come in the last few years.
