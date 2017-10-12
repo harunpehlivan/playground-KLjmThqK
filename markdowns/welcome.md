@@ -8,6 +8,8 @@ Front-end / JavaScript optimization and build chains are evolving at a rapid rat
 
 Tree-shaking is another aspect of JavaScript optimization that has entered the mix in recent times.
 
+NB: This is an interactive version of the [original article from justintimecoder.com](https://justintimecoder.com/treeshaking-in-javascript-with-rollup/).
+
 ## So what is it and why should I care?
 In the brave new world of ES6 + JavaScript, we have a syntax that allows us to declare the dependencies of one file to other files in our project i.e the `import` keyword, as well as the ability to declare the functions, classes, and variables that other files may import i.e the `export` keyword.
 
@@ -61,3 +63,5 @@ There are workarounds for this, primarily implementing the main class declaratio
 
 ## Final Thoughts
 Tree-shaking IMHO is one of the really cool things about modern JavaScript build systems.  It uses some fairly cool techniques to understand and then optimize your code.  Whilst it won't be a game-changer for every scenario, it's just one of the things that show how far JavaScript programming has come in the last few years.
+
+For more tutorials on web development checkout my [other tutorials here](https://tech.io/users/2139342) or for my latest JavaScript content check me out on [justintimecoder.com](https://justintimecoder.com/tag/javascript/).
