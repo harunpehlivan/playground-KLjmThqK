@@ -2,7 +2,7 @@
   "name": "nodejs-project-template",
   "version": "1.0.0",
   "dependencies": {
-    "mocha": "^3.4.2"
+    "mocha": "^6.0.0"
   },
   "scripts": {
     "build": "rollup -c"
